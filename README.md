@@ -6,7 +6,7 @@ This is an accelerometer-based accident detection for electric scooters (E-Scoot
 
 CFAR算法的基本原理和框架可以参考我的SAR船舶检测项目，或者参考Matlab网站的介绍。
 
-For the basic principles and framework of the CFAR algorithm, you can refer to my project of [SAR ship detection](https://github.com/Rc-W024/SAR_Ship_detection_CFAR), or refer to the following web site: [Constant False Alarm Rate (CFAR) Detection](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)
+For the basic principles and framework of the CFAR algorithm, you can refer to my project of [SAR ship detection](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar), or refer to the following web site: [Constant False Alarm Rate (CFAR) Detection](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)
 
 ## Some detection results...
 
