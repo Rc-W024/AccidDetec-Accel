@@ -1,7 +1,7 @@
 clc;
 clear;
 
-addpath('functions');
+addpath('function');
 addpath('data');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
