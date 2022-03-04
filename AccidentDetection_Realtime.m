@@ -11,7 +11,7 @@ addpath('data');
 n=3;
 % gravitational acceleration
 g=9.8;
-% threshold 20
+% threshold
 th=15;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -19,7 +19,7 @@ th=15;
 % accel_z' on x, y and z axis                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % read the data file
-f=tsvread('23febStep&crash.tsv'); %9febcrash
+f=tsvread('XXX.tsv');
 
 % calibration data
 t0=f(:,2);
@@ -108,7 +108,5 @@ title('Accident detection on Y-axis');
 xlabel('Time(s)');
 ylabel('Acceleration(g)');
 legend('Y-axis acceleration signal','Accident target');
-
-% abnormal data: line 12259-12260
 
 
