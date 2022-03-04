@@ -23,7 +23,7 @@ offset=15;
 % accel_z' on x, y and z axis                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % read the data file
-f=tsvread('9febcrash.tsv');
+f=tsvread('XXX.tsv');
 
 % calibration data
 t0=f(:,2);
