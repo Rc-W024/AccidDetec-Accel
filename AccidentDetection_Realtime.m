@@ -22,7 +22,7 @@ th=120;
 % accel_z' on x, y and z axis                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % read the data file
-f=tsvread('g.tsv'); %fallsandAccidents normal_drv_horzRest
+f=tsvread('XXX.tsv');
 
 % calibration data
 t0=f(:,2);
