@@ -9,9 +9,9 @@ CFAR算法的基本原理和框架可以参考我的SAR船舶检测项目，或�
 For the basic principles and framework of the CFAR algorithm, you can refer to my project of [SAR ship detection](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar), or refer to the following web site: [Constant False Alarm Rate (CFAR) Detection](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)
 
 ## Data and files...
-I have uploaded three test data in the "data" folder for studying. Two of the files where the filename contains "crash" have two accident events and additional "disturbances" (steps, violent shaking, etc.). The "Normaldrive" file is a part of normal drive data with U-turn behavior for comparison and reference.
+I have uploaded three test data in the `data` folder for studying. Two of the files where the filename contains "crash" have two accident events and additional "disturbances" (steps, violent shaking, etc.). The `Normaldrive` file is a part of normal drive data with U-turn behavior for comparison and reference.
 
-我在“数据”文件夹中上传了三个测试数据，以供参考学习。其中文件名包含“crash”的两个文件中有两起事故事件和附加的“干扰”（台阶、剧烈震动等），“Normaldrive”文件是一段带有调头行为的正常行驶数据，用于对比参考。
+我在`数据`文件夹中上传了三个测试数据，以供参考学习。其中文件名包含“crash”的两个文件中有两起事故事件和附加的“干扰”（台阶、剧烈震动等），`Normaldrive`文件是一段带有调头行为的正常行驶数据，用于对比参考。
 
 ## Some detection results...
 Algorithm CFAR:
