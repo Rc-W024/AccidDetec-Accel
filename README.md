@@ -8,6 +8,10 @@ CFAR算法的基本原理和框架可以参考我的SAR船舶检测项目，或�
 
 For the basic principles and framework of the CFAR algorithm, you can refer to my project of [SAR ship detection](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar), or refer to the following web site: [Constant False Alarm Rate (CFAR) Detection](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)
 
+Among them, `AccidentDetection_Realtime` algorithm simulates real-time accident detection to realize traversal of all data. It will stop traversal when an abnormal situation is detected and judges whether it is an accident, then continues to traverse the remaining data after the detection is completed. In this case, the `circshift` function in MATLAB is used to simulate the process of acceleration data being monitored in real time.
+
+其中，`AccidentDetection_Realtime`算法模拟了实时事故检测，以实现遍历所有数据，在有异常情况部分停止遍历并判断其是否为事故，在检测结束后继续遍历剩余数据。在此情况下，使用MATLAB中的`circshift`函数来模拟加速度数据被实时监测的过程。
+
 ## Data and files...
 I have uploaded three test data in the `data` folder for studying. Two of the files where the filename contains "crash" have two accident events and additional "disturbances" (steps, violent shaking, etc.). The `Normaldrive` file is a part of normal drive data with U-turn behavior for comparison and reference.
 
