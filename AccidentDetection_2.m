@@ -9,7 +9,7 @@ addpath('data');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % filter window size
 n=3;
-% gravitational acceleration
+% gravitational acceleration (g)
 g=9.8;
 % threshold
 th=6.0;
