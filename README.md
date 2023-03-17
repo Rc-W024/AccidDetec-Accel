@@ -28,3 +28,8 @@ Algorithm 2:
 Algorithm 3:
 ![accel_y](https://user-images.githubusercontent.com/97808991/156752351-1a3d5a43-6434-44f1-8716-4dc73af61fef.png)
 ![image](https://user-images.githubusercontent.com/97808991/156752457-5e4fa8ad-3277-4085-9f0e-66f7a8655270.png)
+
+## Related repository
+Contributor: Srinivas Kulkarni ([@cna274](https://github.com/cna274))
+
+Implementation of Signal Processing Algorithm on a smartphone: [`ISPA`](https://github.com/Rc-W024/Implementation-of-Signal-Processing-Algorithm-on-a-smartphone)
