@@ -17,7 +17,7 @@ I have uploaded three test data in the `data` folder for studying. Two of the fi
 
 我在`data`文件夹中上传了三个测试数据，以供参考学习。其中文件名包含“crash”的两个文件中有两起事故事件和附加的“干扰”（台阶、剧烈震动等），[`Normaldrive`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/data/Normaldrive.tsv)文件是一段带有调头行为的正常行驶数据，用于对比参考。
 
-## Some detection results...
+## Example of detection results...
 Algorithm CFAR:
 ![cfar](https://user-images.githubusercontent.com/97808991/156751830-3220bc8e-1b9a-4ff6-827d-5d37ef054066.png)
 ![image](https://user-images.githubusercontent.com/97808991/156751927-ad3edd30-d26f-488a-b9f3-4e686257a73a.png)
