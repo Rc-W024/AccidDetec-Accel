@@ -13,9 +13,9 @@ Among them, [`AccidentDetection_Realtime`](https://github.com/Rc-W024/AccidDetec
 其中，[`AccidentDetection_Realtime`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m)算法模拟了实时事故检测方案，以实现遍历全部数据，在有异常情况部分暂监控并判断其是否为事故，在检测工作结束后继续监控剩余数据直到结束。在此情况下，使用了MATLAB中的[`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html)函数来模拟加速度数据被实时监视的过程。
 
 ## Data and files...
-I have uploaded three test data in the `data` folder for studying. Two of the files where the filename contains "crash" have two accident events and additional "disturbances" (steps, violent shaking, etc.). The [`Normaldrive`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/data/Normaldrive.tsv) file is a part of normal drive data with U-turn behavior for comparison and reference.
+I have uploaded three test data in the `data` folder for studying. Two of the files where the filename contains *"crash"* have two accident events and additional "disturbances" (steps, violent shaking, etc.). The [`Normaldrive`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/data/Normaldrive.tsv) file is a part of normal drive data with U-turn behavior for comparison and reference.
 
-我在`data`文件夹中上传了三个测试数据，以供参考学习。其中文件名包含“crash”的两个文件中有两起事故事件和附加的“干扰”（台阶、剧烈震动等），[`Normaldrive`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/data/Normaldrive.tsv)文件是一段带有调头行为的正常行驶数据，用于对比参考。
+`data`文件夹中上传了三个测试数据以供参考学习。其中文件名包含*crash*的两个文件中有两起事故事件和附加的“干扰”（台阶、剧烈震动等），[`Normaldrive`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/data/Normaldrive.tsv)文件是一段带有调头行为的正常行驶数据，用于对比参考。
 
 ## Example of detection results...
 Algorithm CFAR:
