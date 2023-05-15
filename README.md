@@ -2,11 +2,11 @@
 
 This is an accelerometer-based accident detection for electric scooters (E-Scooters) developed on the basis of anomaly event detection. I uploaded several simple detection algorithms for users to study. The basic algorithm is very important, which is of great help and reference for subsequent optimization and development. In [`AccidentDetection_CFAR`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_CFAR.m) of this project, the acceleration signal is analyzed by the CFAR algorithm to detect and identify accident events. Based on this, other detection algorithms is developed that process and analyze the data and signals to detect anomaly events (crash).
 
-For the basic principles and framework of the CFAR algorithm, you can refer to my project of [SAR ship detection](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar), or refer to the following MATLAB official web site: [Constant False Alarm Rate (CFAR) Detection](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)
+For the basic principles and framework of the CFAR algorithm, you can refer to my repository of [CFAR-based SAR ship detection](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar), or refer to the following MATLAB official web site: [Constant False Alarm Rate (CFAR) Detection](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)
 
 本项目以异常事件检测为基础，开发了基于加速度计的电动滑板车事故检测算法，并上传了几个简单的检测算法供用户学习。基础算法是相当重要的，它对算法后续的优化、开发有很大的帮助和参考意义。在[`AccidentDetection_CFAR`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_CFAR.m)中，通过CFAR算法分析加速度信号以检测识别事故事件。在此基础上，开发的其他检测算法都是通过处理、分析数据和信号本身来检测异常（事故）事件。
 
-CFAR算法的基本原理和框架可以参考我的SAR舰船检测项目[相关章节](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar)，或参考MATLAB官网的说明。
+CFAR算法的基本原理和框架可以参考本人SAR舰船检测项目中的[相关章节](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar)，或参考MATLAB官网的说明。
 
 Among them, [`AccidentDetection_Realtime`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m) algorithm simulates real-time accident detection to realize traversal of all data. It will stop traversal when an abnormal situation is detected and judges whether it is an accident, then continues to traverse the remaining data after the detection is completed. In this case, the [`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html) function in MATLAB is used to simulate the process of acceleration data being monitored in real time.
 
