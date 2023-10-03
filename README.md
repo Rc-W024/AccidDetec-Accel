@@ -29,10 +29,8 @@ Algorithm 3:
 ![accel_y](https://user-images.githubusercontent.com/97808991/156752351-1a3d5a43-6434-44f1-8716-4dc73af61fef.png)
 ![image](https://user-images.githubusercontent.com/97808991/156752457-5e4fa8ad-3277-4085-9f0e-66f7a8655270.png)
 
-## Related repository
-Contributor: Srinivas Kulkarni [@cna274](https://github.com/cna274)
-
-Implementation of Signal Processing Algorithm on a smartphone: [`ISPA`](https://github.com/Rc-W024/Implementation-of-Signal-Processing-Algorithm-on-a-smartphone)
-
 ## About the project...
 [**RideSafeUM**](https://ridesafeum.com/) is an initiative co-funded by EIT Urban Mobility that brings micromobility safety benefits to users, public authorities and operators through the use of innovative technology. This initiative proactively prevents riding incompliances, provides smooth reaction in case of accidents, and gathers data for wider learning, policy-making and management purposes. The project was born in response to the need of making micromobility safer, and to encourage increased ridership of what have become key modes for the future of our mobility systems.
+
+## Related repository
+Implementation of Signal Processing Algorithm on a smartphone: [`ISPA`](https://github.com/Rc-W024/Implementation-of-Signal-Processing-Algorithm-on-a-smartphone)
