@@ -30,7 +30,14 @@ Algorithm 3:
 ![image](https://user-images.githubusercontent.com/97808991/156752457-5e4fa8ad-3277-4085-9f0e-66f7a8655270.png)
 
 ## About the project...
+<img src="https://github.com/Rc-W024/AccidDetec-Accel/assets/97808991/59074c57-fe89-40be-97c9-9da5ae591cff" width=300px /> &nbsp;&nbsp;&nbsp;
+<img src="https://github.com/Rc-W024/AccidDetec-Accel/assets/97808991/ad5521de-d3b7-49e6-b90d-38da43525c99" width=350px />
+<br>
 [**RideSafeUM**](https://ridesafeum.com/) is an initiative co-funded by EIT Urban Mobility that brings micromobility safety benefits to users, public authorities and operators through the use of innovative technology. This initiative proactively prevents riding incompliances, provides smooth reaction in case of accidents, and gathers data for wider learning, policy-making and management purposes. The project was born in response to the need of making micromobility safer, and to encourage increased ridership of what have become key modes for the future of our mobility systems.
+
+The RideSafeUM solution is based on the integration of computer-vision software, with camera, GPS and an accelerometer. This technology has resulted in an app which can be either supported by users’ smartphones or through external equipment. Versatility being one of the core values of RideSafeUM, the app is available to both private riders and to be easily integrated with shared micromobolity operators’ apps. On the background, a city dashboard enables authorities to set the restrictions and warnings displayed in the users’ app, thereafter being able to identify and dynamically manage micromobility safety issues.
+
+*“The system works on a bi-lateral communication basis. Real-time digital information of regulations is displayed to the user (via the app or the operator’s front-end). At the same time, anonymised alerts are sent to the authorities if an accident occurs, using a black-box function to identify safety patterns.”*
 
 ## Related repository
 Implementation of Signal Processing Algorithm on a smartphone: [`ISPA`](https://github.com/Rc-W024/Implementation-of-Signal-Processing-Algorithm-on-a-smartphone)
