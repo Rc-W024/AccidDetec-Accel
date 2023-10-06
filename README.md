@@ -10,7 +10,7 @@ CFAR算法的基本原理和框架可以参考本人SAR舰船检测项目中的[
 
 Among them, [`AccidentDetection_Realtime`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m) algorithm simulates real-time accident detection to realize traversal of all data. It will stop traversal when an abnormal situation is detected and judges whether it is an accident, then continues to traverse the remaining data after the detection is completed. In this case, the [`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html) function in MATLAB is used to simulate the process of acceleration data being monitored in real time.
 
-其中，[`AccidentDetection_Realtime`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m)算法模拟了实时事故检测流程，以实现遍历全部数据，在有异常情况部分暂监控并判断其是否为事故，在检测工作结束后继续监控剩余数据直到结束。在此情况下，使用了MATLAB中的[`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html)函数来模拟加速度数据被实时监视的过程。
+其中，[`AccidentDetection_Realtime`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m)算法模拟了实时事故检测流程，以实现遍历全部数据，在有异常情况部分暂监控并判断其是否为事故，在检测工作结束后继续监控剩余数据直到结束。在此情况下，使用了MATLAB中的[`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html)函数来模拟加速度数据被实时监控的过程。
 
 ## Data & files...
 Three test data are uploaded to the `data` folder for studying. Two of the files where the filename contains *"crash"* have two accident events and additional "disturbances" (steps, violent shaking, etc.). The [`Normaldrive`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/data/Normaldrive.tsv) file is a part of normal drive data with U-turn behavior for comparison and reference.
