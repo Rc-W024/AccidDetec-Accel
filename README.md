@@ -8,7 +8,7 @@ For the basic principles and framework of the CFAR algorithm, you can refer to m
 
 CFAR算法的基本原理和框架可以参考本人SAR舰船检测项目中的[相关章节](https://github.com/Rc-W024/SAR_Ship_detection_CFAR#constant-false-alarm-rate-cfar)，或参考MATLAB官网的[说明](https://ww2.mathworks.cn/help/phased/ug/constant-false-alarm-rate-cfar-detection.html)。
 
-Among them, [`AccidentDetection_Realtime.m`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m) algorithm simulates real-time accident detection to realize traversal of all data. It will stop traversal when an abnormal situation is detected and judges whether it is an accident, then continues to traverse the remaining data after the detection. In this case, the funtion of [`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html) in MATLAB is used to simulate the process of acceleration data being monitored in real time.
+Among them, [`AccidentDetection_Realtime.m`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m) algorithm simulates real-time accident detection to realize traversal of all data. It will stop traversal when an abnormal situation is detected and judges whether it is an accident, then continues to traverse the remaining data after the detection. In this case, the funtion of [`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html) in MATLAB is used to simulate the process of acceleration data being monitored in real-time.
 
 其中，[`AccidentDetection_Realtime.m`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_Realtime.m)算法模拟了实时事故检测流程，以实现遍历全部数据，在有异常情况部分暂监控并判断其是否为事故，并在检测判断后继续监控剩余数据直到结束。在此情况下，使用了MATLAB中的[`circshift`](https://www.mathworks.com/help/matlab/ref/circshift.html)函数来模拟加速度数据被实时监控的过程。
 
