@@ -1,7 +1,7 @@
 clc;
 clear;
 
-addpath(genpath('P:\PhD\Project'));
+% addpath(genpath('X:\XX\XX'));
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %               Set parameters                %
