@@ -1,6 +1,8 @@
 # Accident Detection Based on Accelerometer
 English | [中文](README_CN.md)
 
+![](https://skillicons.dev/icons?i=matlab)
+
 ## Introduction
 <p>
 <img src="https://github.com/Rc-W024/AccidDetec-Accel/assets/97808991/59074c57-fe89-40be-97c9-9da5ae591cff" width=300px /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
