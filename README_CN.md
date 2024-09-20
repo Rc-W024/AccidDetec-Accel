@@ -1,6 +1,8 @@
 # 基于加速度计的事故检测算法
 [English](README.md) | 中文
 
+![](https://skillicons.dev/icons?i=matlab)
+
 ## 引言
 <p>
 <img src="https://github.com/Rc-W024/AccidDetec-Accel/assets/97808991/59074c57-fe89-40be-97c9-9da5ae591cff" width=300px /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
