@@ -15,6 +15,9 @@ The **RideSafeUM** solution is based on the integration of computer-vision softw
 
 *“The system works on a bi-lateral communication basis. Real-time digital information of regulations is displayed to the user (via the app or the operator’s front-end). At the same time, anonymised alerts are sent to the authorities if an accident occurs, using a black-box function to identify safety patterns.”*
 
+> [!NOTE]
+> This work was funded by the* [*EIT-UM-2022-22265-RideSafeUM*](https://futur.upc.edu/33770719) *project, granted by the EIT.
+
 ## Accident detection
 This is an accelerometer-based accident detection for electric scooters (E-Scooters) developed on the basis of anomaly event detection. I uploaded several simple detection algorithms for users to study. The basic algorithm is very important, which is of great help and reference for subsequent optimization and development. In [`AccidentDetection_CFAR.m`](https://github.com/Rc-W024/AccidDetec-Accel/blob/main/AccidentDetection_CFAR.m), the acceleration signal is analyzed by the CFAR algorithm to detect and identify accident events. Based on this, other detection algorithms is developed that process and analyze the data and signals to detect anomaly events (crash or accident).
 
